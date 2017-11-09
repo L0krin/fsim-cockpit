@@ -3,30 +3,37 @@
 <head>
 <title>FlightSim Cockpit</title>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<table style="width:100%">
-  <tr>
-    <td width="125"></td>
-    <td width="90%">
-      <h1>FlightSim Cockpit</h1>
-    </td> 
-    <td></td>
-  </tr>
-  <tr height="80%">
-    <td valign="top">
-	    <a href="main.html" target="main_frame">Home</a><br>
-      <a href="aboutme.html" target="main_frame">About Me</a><br>
-      <a href="cockpit.html" target="main_frame">The Project</a><br>
-      <a href="currentstate.html" target="main_frame">Status</a><br>
-    </td>
-    <td>
-      <iframe src="main.html" height="900" width="90%" name="main_frame"></iframe>
-    </td>
-    <td></td>
-  </tr>
-</table>
+<div class="header">
+    <h1>Flight Simulator Cockpit</h1>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="cockpit.html">The Project</a></li>
+        <li><a href="currentstate.html">Status</a></li>
+    </ul>
+  </div>
+  <div class="column middle">
+      <p>
+          This website is being built as part of an assignment in one of my classes.
+          I needed to build a website, and also wanted to document the build process of my simulator, so I'm doing both.
+          Here I will be documenting the build process of my home-built cockpit for X-Plane 11.
+          I'll be documenting what I have done up until this point, and include plans for the future.
+      </p>
+      <br>
+      <p title="Under Construction">
+          I just got the webserver running so it might be a little while before content is available.
+          Because this site is being built as part of a class, it will probably be improving over time.
+      </p>
+  </div>
+</div>
 
 </body>
 </html>
