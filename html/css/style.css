@@ -7,7 +7,7 @@ body {
 
 p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 /* ---------- Header Style ------------*/
@@ -76,8 +76,10 @@ ul.list {
 }
 
  /* ---------- Footer ------------ */
+/*
 .footer {
-    /* background-color: #F1F1F1;
+     background-color: #F1F1F1;
     text-align: center;
-    padding: 10px; */
+    padding: 10px; 
 }
+*/
